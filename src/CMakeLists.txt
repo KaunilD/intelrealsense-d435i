@@ -10,7 +10,8 @@ message("-- librealsense DIR: " ${LRS_DIR})
 message("-- librealsense INCLUDE_DIR: " ${LRS_INCLUDE_DIR})
 message("-- librealsense LIB: " ${LRS_LIBS})
 
-add_executable(${PROJECT_NAME} test_lrs.cpp)
+# lrs sources/examples
+add_executable(${PROJECT_NAME} "hello_lrs.cpp")
 
 # Link libs to the target
 target_link_libraries(${PROJECT_NAME} ${LRS_LIBS})

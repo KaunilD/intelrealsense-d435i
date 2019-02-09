@@ -61,7 +61,7 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # Order-only phony target for self_driving_car
 
 build cmake_object_order_depends_target_self_driving_car: phony || src\CMakeFiles\self_driving_car.dir
-build src\CMakeFiles\self_driving_car.dir\test_lrs.cpp.obj: CXX_COMPILER__self_driving_car ..\..\src\test_lrs.cpp || cmake_object_order_depends_target_self_driving_car
+build src\CMakeFiles\self_driving_car.dir\hello_lrs.cpp.obj: CXX_COMPILER__self_driving_car ..\..\src\hello_lrs.cpp || cmake_object_order_depends_target_self_driving_car
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
   INCLUDES = -I..\..\external\librealsense2\include
   OBJECT_DIR = src\CMakeFiles\self_driving_car.dir
@@ -76,12 +76,12 @@ build src\CMakeFiles\self_driving_car.dir\test_lrs.cpp.obj: CXX_COMPILER__self_d
 #############################################
 # Link the executable bin\self_driving_car.exe
 
-build bin\self_driving_car.exe: CXX_EXECUTABLE_LINKER__self_driving_car src\CMakeFiles\self_driving_car.dir\test_lrs.cpp.obj | ..\..\external\librealsense2\\lib\realsense2.lib
+build bin\self_driving_car.exe: CXX_EXECUTABLE_LINKER__self_driving_car src\CMakeFiles\self_driving_car.dir\hello_lrs.cpp.obj | ..\..\external\librealsense2\lib\realsense2.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = ..\..\external\librealsense2\\lib\realsense2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = ..\..\external\librealsense2\lib\realsense2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = src\CMakeFiles\self_driving_car.dir
-  POST_BUILD = cmd.exe /C "cd /D C:\Users\dhruv\Development\git\self_driving_car\build\x64-Release\src && "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy C:/Users/dhruv/Development/git/self_driving_car/external/librealsense2//lib/realsense2.dll C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/bin/"
+  POST_BUILD = cmd.exe /C "cd /D C:\Users\dhruv\Development\git\self_driving_car\build\x64-Release\src && "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy C:/Users/dhruv/Development/git/self_driving_car/external/librealsense2/lib/realsense2.dll C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/bin/"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = src\CMakeFiles\self_driving_car.dir\
   TARGET_FILE = bin\self_driving_car.exe
