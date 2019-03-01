@@ -20,7 +20,7 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
 # sources
-add_executable(${PROJECT_NAME} "stb_easy_font.h" "rs-capture.hpp" "rs-capture.cpp")
+add_executable(${PROJECT_NAME} "rs-capture.cpp")
 
 if (OPENGL_FOUND)
 	target_include_directories(${PROJECT_NAME} PUBLIC ${OPENGL_INCLUDE_DIR})
