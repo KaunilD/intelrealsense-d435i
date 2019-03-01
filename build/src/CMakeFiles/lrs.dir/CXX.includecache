@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dhruv/development/git/intelrealsense-d435i/src/rs-capture.cpp
+librealsense2/rs.hpp
+/home/dhruv/development/git/intelrealsense-d435i/src/librealsense2/rs.hpp
+librealsense2/hpp/rs_internal.hpp
+/home/dhruv/development/git/intelrealsense-d435i/src/librealsense2/hpp/rs_internal.hpp
+opencv2/opencv.hpp
+-
+
