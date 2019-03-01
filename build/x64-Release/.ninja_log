@@ -86,3 +86,5 @@
 1493	1600	573111352	third-party/glfw3/Win64/src/glfw3.lib	8b34108c99629de7
 943	3227	573111354	src/CMakeFiles/lrs.dir/rs-capture.cpp.obj	f989c48dfd9a2fa4
 3227	3698	573111354	bin/lrs.exe	90fba7ab998ab950
+3	1947	573111596	src/CMakeFiles/lrs.dir/rs-capture.cpp.obj	f989c48dfd9a2fa4
+1947	2499	573111596	bin/lrs.exe	90fba7ab998ab950

@@ -1,33 +1,29 @@
+// librealsense
 #include "librealsense2/rs.hpp"
 #include "librealsense2/hpp/rs_internal.hpp"
-#include  "rs-capture.hpp"
+// OpenCV
 #include <opencv2/opencv.hpp>
 
 using namespace cv;
 int main(int argc, char * argv[]) try
 {
     rs2::log_to_console(RS2_LOG_SEVERITY_ERROR);
-    // Create a simple OpenGL window for rendering:
-    // window app(1280, 720, "RealSense Capture Example");
-
-    // Declare depth colorizer for pretty visualization of depth data
+    // Depth colorizer for pretty visualization of depth data
     rs2::colorizer color_map;
-    // Declare rates printer for showing streaming rates of the enabled streams.
-    rs2::rates_printer printer;
-
-    // Declare RealSense pipeline, encapsulating the actual device and sensors
+    
+    // RealSense pipeline, encapsulating the actual device and sensors
+	// At every timestep, the pipeline returns stereo, depth, IR and IMU data.
     rs2::pipeline pipe;
 	rs2::config cfg;
-
-	// Use a configuration object to request only depth from the pipeline
+	
+	// Use only depth to save computation time on RealSense. 
+	// Small time make Big time. Big time make success.
 	cfg.enable_stream(RS2_STREAM_DEPTH, 1280, 720, RS2_FORMAT_Z16, 30);
-
-	// Start streaming with default recommended configuration
-    // The default video configuration contains Depth and Color streams
-    // If a device is capable to stream IMU data, both Gyro and Accelerometer are enabled by default
+	
+	// Start the pipeline
     pipe.start(cfg);
 
-	const auto window_name = "Display Image";
+	const auto window_name = "Depth Stream";
 	namedWindow(window_name, WINDOW_AUTOSIZE);
 
 	while (waitKey(1) < 0 && getWindowProperty(window_name, WND_PROP_AUTOSIZE) >= 0)
@@ -41,6 +37,7 @@ int main(int argc, char * argv[]) try
 
 		// Create OpenCV matrix of size (w,h) from the colorized depth data
 		Mat image(Size(w, h), CV_8UC3, (void*)depth.get_data(), Mat::AUTO_STEP);
+		
 		// Update the window with new data
 		imshow(window_name, image);
     }
