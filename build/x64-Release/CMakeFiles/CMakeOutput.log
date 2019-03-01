@@ -1,4 +1,4 @@
-The system is: Windows - 10.0.17134 - AMD64
+The system is: Windows - 10.0.17763 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/cl.exe 
 Build flags: 
@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/dhruv/Development/git/intelrealsense-d435i/build/x64-Release/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/cl.exe 
@@ -45,60 +45,60 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/dhruv/Development/git/intelrealsense-d435i/build/x64-Release/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dhruv/Development/git/intelrealsense-d435i/build/x64-Release/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_c5218"
-[1/2] Building C object CMakeFiles\cmTC_c5218.dir\testCCompiler.c.obj
-[2/2] Linking C executable cmTC_c5218.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_0d598"
+[1/2] Building C object CMakeFiles\cmTC_0d598.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_0d598.exe
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dhruv/Development/git/intelrealsense-d435i/build/x64-Release/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_3f2a2"
-[1/2] Building C object CMakeFiles\cmTC_3f2a2.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_3f2a2.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_07bfa"
+[1/2] Building C object CMakeFiles\cmTC_07bfa.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_07bfa.exe
 
 
 
 
 Detecting C [] compiler features compiled with the following output:
-Change Dir: C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dhruv/Development/git/intelrealsense-d435i/build/x64-Release/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_7a451"
-[1/2] Building C object CMakeFiles\cmTC_7a451.dir\feature_tests.c.obj
-[2/2] Linking C executable cmTC_7a451.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_6ed36"
+[1/2] Building C object CMakeFiles\cmTC_6ed36.dir\feature_tests.c.obj
+[2/2] Linking C executable cmTC_6ed36.exe
 
 
     Feature record: C_FEATURE:1c_function_prototypes
     Feature record: C_FEATURE:1c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dhruv/Development/git/intelrealsense-d435i/build/x64-Release/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_4e5ae"
-[1/2] Building CXX object CMakeFiles\cmTC_4e5ae.dir\testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_4e5ae.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_2aa0c"
+[1/2] Building CXX object CMakeFiles\cmTC_2aa0c.dir\testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_2aa0c.exe
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dhruv/Development/git/intelrealsense-d435i/build/x64-Release/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_5c938"
-[1/2] Building CXX object CMakeFiles\cmTC_5c938.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_5c938.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_61239"
+[1/2] Building CXX object CMakeFiles\cmTC_61239.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_61239.exe
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dhruv/Development/git/intelrealsense-d435i/build/x64-Release/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_d47bd"
-[1/2] Building CXX object CMakeFiles\cmTC_d47bd.dir\feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_d47bd.exe
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_4b8e8"
+[1/2] Building CXX object CMakeFiles\cmTC_4b8e8.dir\feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_4b8e8.exe
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers

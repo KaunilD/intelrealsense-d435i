@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/dhruv/Development/git/self_driving_car/src
+# Install script for directory: C:/Users/dhruv/Development/git/intelrealsense-d435i/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/dhruv/Development/git/self_driving_car/build/install/x64-Release")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/dhruv/Development/git/intelrealsense-d435i/build/install/x64-Release")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

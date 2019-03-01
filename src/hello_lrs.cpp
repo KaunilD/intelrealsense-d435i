@@ -8,6 +8,6 @@ int main()
 
 	std::cout << "hello from librealsense - " << RS2_API_VERSION_STR << std::endl;
 	std::cout << "You have " << ctx.query_devices().size() << " RealSense devices connected" << std::endl;
-
+	std::cin.get();
 	return 0;
 }

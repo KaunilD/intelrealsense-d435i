@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/dhruv/Development/git/self_driving_car
+# Install script for directory: C:/Users/dhruv/Development/git/intelrealsense-d435i
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/dhruv/Development/git/self_driving_car/build/install/x64-Release")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/dhruv/Development/git/intelrealsense-d435i/build/install/x64-Release")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/src/cmake_install.cmake")
+  include("C:/Users/dhruv/Development/git/intelrealsense-d435i/build/x64-Release/third-party/glfw3/Win64/cmake_install.cmake")
+  include("C:/Users/dhruv/Development/git/intelrealsense-d435i/build/x64-Release/src/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/dhruv/Development/git/self_driving_car/build/x64-Release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/dhruv/Development/git/intelrealsense-d435i/build/x64-Release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
